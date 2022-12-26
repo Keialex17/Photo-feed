@@ -4,13 +4,14 @@
     background-color: white;
 }
 .feeds {
-    background-color: rgb(189, 189, 189);
+    background-color: #EAEAEA;
     align-items: center;
     justify-content: center;
     display: flex;
     height: 100%;
     flex-direction: column;
     text-align: left;
+    margin: 0px;
 }
 img {
     object-fit: cover;
@@ -23,4 +24,16 @@ img {
     width: 500px;
     height: 500px;
     margin:50px;
+}
+.encabezado{
+    display: inline-block;
+    margin-left: 10px ;
+}
+.comment{
+    margin: 5px 10px;
+}
+.numero{
+    text-align: end;
+    color: grey;
+    font-size: 10px;
 }

@@ -26,14 +26,15 @@ img {
     margin:50px;
 }
 .encabezado{
-    display: inline-block;
+    display: flex;
     margin-left: 10px ;
 }
 .comment{
     margin: 5px 10px;
 }
 .numero{
-    text-align: end;
     color: grey;
-    font-size: 10px;
+    font-size: 15px;
+    padding: 20px;
+    margin-left: 60%;
 }
